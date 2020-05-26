@@ -1,13 +1,5 @@
-import { Calculadora } from './calculadora';
+import suma from './calculadora';
 
-export class CalculadoraAvanzada {
-  private calculadora: Calculadora;
-
-  constructor(calculadora: Calculadora) {
-    this.calculadora = calculadora;
-  }
-
-  public media(a: number, b: number): number {
-    return this.calculadora.suma(a, b) / 2;
-  }
-}
+export const media = (a: number, b: number): number => {
+  return suma(a, b) / 2;
+};
