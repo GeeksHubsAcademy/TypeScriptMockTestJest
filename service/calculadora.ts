@@ -5,10 +5,10 @@ export class Calculadora {
   resta(a: number, b: number): number {
     return a - b;
   }
-  multiplicación(a: number, b: number): number {
+  multiplicacion(a: number, b: number): number {
     return a * b;
   }
-  división(a: number, b: number): number {
-    return a * b;
+  division(a: number, b: number): number {
+    return a / b;
   }
 }
